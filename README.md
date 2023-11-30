@@ -1,4 +1,5 @@
-# C:/Users/Hacker> WHOAMI:: KD   Experienced InfoSec CSOC Analyst
+# C:/Users/Hacker> WHOAMI:: KD
+# Experienced InfoSec CSOC Analyst
 ## Threat Hunter | BTL1 (Gold)
 
 ### $K!LL$
