@@ -2,7 +2,7 @@
 
 ####**WHOAMI::** Experienced InfoSec CSOC Analyst | Threat Hunter | BTL1 (Gold)
 
-#### $K!LL$
+#### SK!LLS
 Advanced Skills: Security Practices & Framework, XDR, SIEM, SOAR & DFIR
 Intermediate Knowledge: GCP, AWS & Azure
 
