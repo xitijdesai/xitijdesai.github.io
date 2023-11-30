@@ -1,15 +1,12 @@
-# S0C Analyst
+# **C:/Users/Hacker> WHOAMI::** KD - Experienced InfoSec CSOC Analyst
+## Threat Hunter | BTL1 (Gold)
 
-### **WHOAMI::** Experienced InfoSec CSOC Analyst
-### Threat Hunter | BTL1 (Gold)
-
-### SK!LLS
+### $K!LL$
 Advanced Skills: Security Practices & Framework, XDR, SIEM, SOAR & DFIR
 Intermediate Knowledge: GCP, AWS & Azure
 
 ### Education
-**MS.** in Information, Network & Computer Security | NewYork Institute of Technology (_July 2018_)
-
+**MS.** in Information, Network & Computer Security | NYIT, Vancouver (_July 2018_)
 **BE.** in Electronics & Communication | MGITER, GJ India (_June 2016_)
 
 ### Work Experience
