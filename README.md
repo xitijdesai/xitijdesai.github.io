@@ -2,22 +2,22 @@
 
 #### Experienced InfoSec CSOC Analyst | Threat Hunter | BTL1 (Gold)
 
-#### Advanced Skills:
-- Security Practices & Framework, XDR, SIEM, SOAR & DFIR
-- Intermediate Knowledge: GCP, AWS & Azure
+#### "#"WHO_AM_I
+Advanced Skills: Security Practices & Framework, XDR, SIEM, SOAR & DFIR
+Intermediate Knowledge: GCP, AWS & Azure
 
 ### Education
-- MS. in Information, Network & Computer Security | NewYork Institute of Technology (_July 2018_)
-- BE. in Electronics & Communication | MGITER, GJ India (_June 2016_)
+MS. in Information, Network & Computer Security | NewYork Institute of Technology (_July 2018_)
+BE. in Electronics & Communication | MGITER, GJ India (_June 2016_)
 
 ### Work Experience
-- **Security Analyst @ H!DD3N | ~ 1.5 Years, Current**
-- **Support Analyst @ WorkSafeBC | (_May 2021_ - _August 2022_)**
+**Security Analyst @ H!DD3N | ~ 1.5 Years, Current**
+**Support Analyst @ WorkSafeBC | (_May 2021_ - _August 2022_)**
 
 ### Certifications
-- SC-200: Mitigate threats using Microsoft 365 Defender - (_Nov 2023_)
-- BLUE TEAM LEVEL1 (GOLD) - (_Nov 2023_)
-- Networking in GCP - (_July 2022_)
+SC-200: Mitigate threats using Microsoft 365 Defender - (_Nov 2023_)
+BLUE TEAM LEVEL1 (GOLD) - (_Nov 2023_)
+Networking in GCP - (_July 2022_)
 
 ### Projects
 **Free Kali Linux in the AWS Cloud**
