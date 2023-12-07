@@ -19,7 +19,7 @@
 - BLUE TEAM LEVEL1 **(GOLD)** - (_Nov 2023_)
 - Networking in **GCP** - (_July 2022_)
 
-### Projects
+### Current Project
 **Free Kali Linux in the AWS Cloud**
  - Best Hacking distro on the cloud (AWS) with Public IP
  - Running Kali linux on cloud with not only SSH but GUI access.
