@@ -97,8 +97,8 @@ function displayLoadingMessage(element) {
                 'Welcome to my profile!',
                 'I am passionate about CYBERSECURITY.',
 		'Experienced InfoSec CSOC Analyst | Threat Hunter | BTL1 (Gold)',
-		' ',
 		'Visit my LinkedIN Profile by clicking on the profile.',
+		' ',
 		'Or Scan QR to download my PDF Resume: http://tinyurl.com/KDRESUME24.'
             ];
 
@@ -118,7 +118,7 @@ function displayLoadingMessage(element) {
 
                         // Create an image element
                         const myImage = document.createElement('img');
-                        myImage.src = 'main/kd.png'; // Replace with the actual path to your image
+                        myImage.src = '/main/kd.png'; // Replace with the actual path to your image
                         myImage.alt = 'Meet KD';
 
                         // Append the image to the anchor tag
