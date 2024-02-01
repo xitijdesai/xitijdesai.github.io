@@ -28,3 +28,14 @@ body {
         opacity: 0;
     }
 }
+/* Adjust font size for text */
+.welcome {
+    font-size: 24px;
+}
+
+/* Adjust dimensions for the image */
+img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+	align: center;
+}
