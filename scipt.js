@@ -46,22 +46,6 @@ function displayTextWithTypingAnimation(element, text, speed, callback) {
     type();
 }
 
-function loadReadme() {
-    console.log('Button clicked!');
-
-    // Fetch the README.md content
-    fetch('README.md')
-        .then(response => response.text())
-        .then(content => {
-            // Display the README.md content in the output element
-            document.getElementById('output').textContent = content;
-        })
-        .catch(error => {
-            console.error('Error fetching README.md:', error);
-        });
-}
-
-
 // Functions to simulate command output
 function getUsername() {
     // You can replace this with the actual username retrieval logic
