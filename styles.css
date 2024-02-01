@@ -1,0 +1,21 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.terminal {
+    padding: 20px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+}
+
+.terminal pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
