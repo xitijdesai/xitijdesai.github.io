@@ -118,7 +118,7 @@ function displayLoadingMessage(element) {
 
                         // Create an image element
                         const myImage = document.createElement('img');
-                        myImage.src = 'https://github.com/xitijdesai/xitijdesai.github.io/blob/4416605bc38169072a12aacbc1fe8fea9effd8f0/KD.png'; // Replace with the actual path to your image
+                        myImage.src = 'KD1.jpeg'; // Replace with the actual path to your image
                         myImage.alt = 'Meet KD';
 
                         // Append the image to the anchor tag
