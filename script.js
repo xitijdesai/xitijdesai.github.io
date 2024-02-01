@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function simulateCommandLine(outputElement) {
-    const welcomeText = 'WELCOME';
-    const commandLineText = 'C:/Users/Stranger> WHOAMI';
+    const welcomeText = '> Hello, World!';
+    const commandLineText = '>C:/Users/Stranger> WHOAMI';
 
     // Display the WELCOME text at the top of the page
     const welcomeBanner = document.createElement('div');
@@ -70,9 +70,10 @@ function displayLoadingMessage(element) {
     const loadingMessage = 'LOADING KD\'s DETAILS...';
     element.innerHTML += '\n' + loadingMessage;
 
-    let countdown = 2; // Adjusted to 2
+
+    let countdown = 3; // Adjusted to 2
     const countdownInterval = setInterval(() => {
-        element.innerHTML += '\n' + `Securing your access in ${countdown}, `;
+        element.innerHTML += '\n' + `Securing your access in ${countdown}... `;
         countdown--;
 
         if (countdown < 0) {
