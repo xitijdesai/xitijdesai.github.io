@@ -121,7 +121,7 @@ function displayLoadingMessage(element) {
 
                         // Create an image element
                         const myImage = document.createElement('img');
-                        myImage.src = 'C:\\Users\\WDAGUtilityAccount\\Desktop\\TEST\\11.png'; // Replace with the actual path to your image
+                        myImage.src = 'kd.png'; // Replace with the actual path to your image
                         myImage.alt = 'Meet KD';
 
                         // Append the image to the anchor tag
