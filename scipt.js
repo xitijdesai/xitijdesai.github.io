@@ -47,6 +47,8 @@ function displayTextWithTypingAnimation(element, text, speed, callback) {
 }
 
 function loadReadme() {
+    console.log('Button clicked!');
+
     // Fetch the README.md content
     fetch('README.md')
         .then(response => response.text())
@@ -58,6 +60,7 @@ function loadReadme() {
             console.error('Error fetching README.md:', error);
         });
 }
+
 
 // Functions to simulate command output
 function getUsername() {
