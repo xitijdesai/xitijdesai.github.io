@@ -12,16 +12,6 @@ function simulateCommandLine(outputElement) {
     displayTextWithTypingAnimation(outputElement, commandLineText, 100, () => {
         // Add a blinking cursor after the command
         outputElement.innerHTML += '<span id="cursor">|</span>';
-
-        // Simulate the whoami command output
-        const whoAmIOutput = `username: ${getUsername()}
-hostname: ${getHostname()}
-OS: ${getOS()}`;
-
-        // Display the output with a delay to simulate a command-line interface
-        setTimeout(() => {
-            outputElement.textContent += '\n' + whoAmIOutput;
-        }, 500); // Adjust the delay as needed
     });
 }
 
@@ -46,18 +36,8 @@ function displayTextWithTypingAnimation(element, text, speed, callback) {
     type();
 }
 
-// Functions to simulate command output
+// Placeholder functions to simulate command output
 function getUsername() {
-    // You can replace this with the actual username retrieval logic
+    // Replace this with the actual username retrieval logic
     return 'john_doe';
-}
-
-function getHostname() {
-    // You can replace this with the actual hostname retrieval logic
-    return 'my-computer';
-}
-
-function getOS() {
-    // You can replace this with the actual OS retrieval logic
-    return 'Linux';
 }
