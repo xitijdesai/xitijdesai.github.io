@@ -64,8 +64,6 @@ function displayTextWithTypingAnimation(element, text, speed, callback) {
     // Start the typing animation
     type();
 }
-// ... (previous code)
-
 
 function displayLoadingMessage(element) {
     // Simulate loading message with countdown
@@ -99,10 +97,9 @@ function displayLoadingMessage(element) {
                 'Welcome to my profile!',
                 'I am passionate about CYBERSECURITY.',
 		'Experienced InfoSec CSOC Analyst | Threat Hunter | BTL1 (Gold)',
-		' ',                
 		'Visit my LinkedIN Profile by clicking on the profile.',
+		' ',
 		'Or Scan QR to download my PDF Resume: http://tinyurl.com/KDRESUME24.'
-		
             ];
 
             // Display additional lines of text with a delay
@@ -121,7 +118,7 @@ function displayLoadingMessage(element) {
 
                         // Create an image element
                         const myImage = document.createElement('img');
-                        myImage.src = 'kd.png'; // Replace with the actual path to your image
+                        myImage.src = 'xitijdesai.github.io/kd.png'; // Replace with the actual path to your image
                         myImage.alt = 'Meet KD';
 
                         // Append the image to the anchor tag
