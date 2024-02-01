@@ -11,7 +11,7 @@ function simulateCommandLine(outputElement) {
 
     // Display the WELCOME text at the top of the page
     const welcomeBanner = document.createElement('div');
-    welcomeBanner.className = 'access-granted-banner';
+    welcomeBanner.className = 'access-granted-banner welcome';
     welcomeBanner.textContent = welcomeText;
     outputElement.appendChild(welcomeBanner);
 
@@ -39,9 +39,9 @@ function simulateCommandLine(outputElement) {
 
                 // Display loading message
                 displayLoadingMessage(outputElement);
-            }, 2000);
+            }, 500);
         });
-    }, 1500); // Adjusted delay as needed
+    }, 500); // Adjusted delay as needed
 }
 
 function displayTextWithTypingAnimation(element, text, speed, callback) {
@@ -64,6 +64,9 @@ function displayTextWithTypingAnimation(element, text, speed, callback) {
     // Start the typing animation
     type();
 }
+// ... (previous code)
+
+
 function displayLoadingMessage(element) {
     // Simulate loading message with countdown
     const loadingMessage = 'LOADING KD\'s DETAILS...';
@@ -86,25 +89,52 @@ function displayLoadingMessage(element) {
             // Create a new div for "Access Granted" banner
             const accessGrantedBanner = document.createElement('div');
             accessGrantedBanner.className = 'access-granted-banner';
-            accessGrantedBanner.textContent = 'ACCESS GRANTED!';
+            accessGrantedBanner.textContent = 'MEET MR. KD!';
 
             // Append the new banner to the container
             element.appendChild(accessGrantedBanner);
 
-            // After 2 seconds, load and display README.md
-            setTimeout(() => {
-                fetch('README.md')
-                    .then(response => response.text())
-                    .then(text => {
-                        // Create a div for README content
-                        const readmeDiv = document.createElement('div');
-                        readmeDiv.innerHTML = text;
+            // Additional lines of text
+            const additionalText = [
+                'Welcome to my profile!',
+                'I am passionate about CYBERSECURITY.',
+		'Experienced InfoSec CSOC Analyst | Threat Hunter | BTL1 (Gold)',
+		' ',                
+		'Visit my LinkedIN Profile by clicking on the profile.',
+		'Or Scan QR to download my PDF Resume: http://tinyurl.com/KDRESUME24.'
+		
+            ];
 
-                        // Append the README content to the container
-                        element.appendChild(readmeDiv);
-                    })
-                    .catch(error => console.error('Error loading README.md:', error));
-            }, 2000);
+            // Display additional lines of text with a delay
+            additionalText.forEach((line, index) => {
+                setTimeout(() => {
+                    element.innerHTML += '\n' + line;
+
+                    // If it's the last line of text, create a container for the image
+                    if (index === additionalText.length - 1) {
+                        // Create a container for the image
+                        const imageContainer = document.createElement('div');
+
+                        // Create an anchor tag
+                        const link = document.createElement('a');
+                        link.href = 'https://linkedin.com/in/xitijdesai'; // Replace with the URL you want to redirect to
+
+                        // Create an image element
+                        const myImage = document.createElement('img');
+                        myImage.src = 'C:\\Users\\WDAGUtilityAccount\\Desktop\\TEST\\11.png'; // Replace with the actual path to your image
+                        myImage.alt = 'Meet KD';
+
+                        // Append the image to the anchor tag
+                        link.appendChild(myImage);
+
+                        // Append the anchor tag to the container
+                        imageContainer.appendChild(link);
+
+                        // Append the image container to the main element
+                        element.appendChild(imageContainer);
+                    }
+                }, (index + 1) * 1000); // Adjust the delay as needed
+            });
         }
     }, 1000);
 }
