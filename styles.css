@@ -1,21 +1,38 @@
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: black;
+    color: white;
     font-family: 'Courier New', monospace;
     margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+}
+
+.access-granted-banner {
+    font-size: 60px;
+    font-weight: bold;
+    color: green; /* You can adjust the color as needed */
+    text-align: center;
+    padding: 50px;
 }
 
 .terminal {
     padding: 20px;
-    border: 2px solid #00ff00;
+    margin: 20px;
+    border: 1px solid white;
     border-radius: 5px;
+    background-color: black;
+    overflow: auto;
+    height: 300px;
 }
 
-.terminal pre {
+#output {
     margin: 0;
-    white-space: pre-wrap;
+}
+
+#cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
