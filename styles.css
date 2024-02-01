@@ -13,15 +13,7 @@ body {
     padding: 50px;
 }
 
-.terminal {
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: black;
-    overflow: auto;
-    height: 300px;
-}
+
 
 #output {
     margin: 0;
