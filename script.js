@@ -64,12 +64,10 @@ function displayTextWithTypingAnimation(element, text, speed, callback) {
     // Start the typing animation
     type();
 }
-
 function displayLoadingMessage(element) {
     // Simulate loading message with countdown
     const loadingMessage = 'LOADING KD\'s DETAILS...';
     element.innerHTML += '\n' + loadingMessage;
-
 
     let countdown = 3; // Adjusted to 2
     const countdownInterval = setInterval(() => {
@@ -92,6 +90,21 @@ function displayLoadingMessage(element) {
 
             // Append the new banner to the container
             element.appendChild(accessGrantedBanner);
+
+            // After 2 seconds, load and display README.md
+            setTimeout(() => {
+                fetch('README.md')
+                    .then(response => response.text())
+                    .then(text => {
+                        // Create a div for README content
+                        const readmeDiv = document.createElement('div');
+                        readmeDiv.innerHTML = text;
+
+                        // Append the README content to the container
+                        element.appendChild(readmeDiv);
+                    })
+                    .catch(error => console.error('Error loading README.md:', error));
+            }, 2000);
         }
     }, 1000);
 }
