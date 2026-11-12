@@ -1,0 +1,167 @@
+{
+  "profile": {
+    "name": "Kshitij Desai",
+    "handle": "KD",
+    "title": "Senior Security Operations Analyst",
+    "location": "Coppell, TX",
+    "phone": "+E-MAIL-ME-PLZZ",
+    "email": "xitijdesai.work@gmail.com",
+    "linkedin": "https://linkedin.com/in/xitijdesai",
+    "github": "https://github.com/xitijdesai",
+    "portfolio": "https://xitijdesai.github.io",
+    "avatar": "profile.webp",
+    "summary": "Senior Security Operations Analyst with over 7 years of combined IT and Cybersecurity experience, specializing in threat detection engineering, SIEM/EDR management, and automated incident response. Proven track record of technical leadership, having mentored and trained 10+ junior analysts to mid-tier proficiency through structured shadow sessions and hands-on skill development. Expert in authoring custom threat hunting queries using KQL and CrowdStrike LogScale CQL, optimizing detection rule logic, and driving Cloud Security Posture Management (CSPM) across AWS and Azure environments. Certified Blue Team Level 1 (Gold) professional skilled in building automated SOC playbooks, integrating threat intelligence via APIs, and executing high-fidelity alert tuning to bridge Security Operations and Security Engineering."
+  },
+  "stats": [
+    { "label": "Analysts Mentored", "value": "10+" },
+    { "label": "Years Experience", "value": "7+" },
+    { "label": "Cloud Platforms", "value": "2" }
+  ],
+  "experience": [
+    {
+      "company": "Kaseya",
+      "roles": [
+        {
+          "title": "Sr. Security Operations Analyst",
+          "start": "2026-09",
+          "end": "Present",
+          "location": "Dallas, TX",
+          "bullets": [
+            "Lead threat detection tuning, advanced triage escalations, and cross-functional security engineering initiatives across global environments",
+            "Mentor and train 10+ junior security analysts through structured shadowing, technical training sessions, and targeted career pathing",
+            "Engineer and refine SIEM and EDR/XDR detection rules within Microsoft Sentinel and CrowdStrike Falcon, reducing false-positive alert volume",
+            "Execute proactive threat hunting campaigns across multi-cloud and hybrid endpoints utilizing custom KQL and LogScale CQL queries",
+            "Design and maintain automated SOC response playbooks and SOPs to streamline incident triage, investigation, and escalation workflows"
+          ]
+        },
+        {
+          "title": "Security Operations Analyst",
+          "start": "2022-09",
+          "end": "2026-08",
+          "location": "Vancouver, BC & Miami, FL",
+          "bullets": [
+            "Conducted cloud vulnerability and misconfiguration audits using CSPM tools (Wiz and Aqua Security)",
+            "Performed deep-dive root cause analysis on high-severity phishing, malware, and credential harvesting campaigns",
+            "Validated security impact of externally reported vulnerabilities, coordinating patch deployment and remediation tracking",
+            "Correlated network firewall logs across Cisco Meraki and Palo Alto Panorama to isolate compromised hosts"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "WorkSafeBC",
+      "roles": [
+        {
+          "title": "Support Technician & Analyst",
+          "start": "2020-09",
+          "end": "2022-08",
+          "location": "Richmond, BC",
+          "bullets": [
+            "Administered endpoint security configurations, access controls, and MFA protocols across enterprise systems",
+            "Utilized SCCM and Intune for endpoint onboarding, automated patch management, and asset security tracking",
+            "Authored detailed technical KB articles and troubleshooting guides to standardize Tier 2 incident resolution"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Microserve & Lionbridge",
+      "roles": [
+        {
+          "title": "IT Support Analyst & Technician",
+          "start": "2019-02",
+          "end": "2020-09",
+          "location": "Vancouver, BC",
+          "bullets": [
+            "Managed endpoint deployment, user access management, and hardware troubleshooting in enterprise client environments"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "Threat Detection & Engineering": [
+      "Detection Rule Tuning", "SIEM Engineering", "Threat Hunting",
+      "Correlation Logic", "Alert Suppression", "Playbook Automation"
+    ],
+    "Security Tooling & Platforms": [
+      "Microsoft Sentinel", "CrowdStrike Falcon", "RedCanary",
+      "Microsoft Defender for Endpoint", "Wiz", "Aqua Security",
+      "Meraki", "Palo Alto Panorama", "Intune", "SCCM"
+    ],
+    "Languages & Querying": [
+      "LogScale CQL", "KQL (Kusto Query Language)", "Python", "RESTful API Integration"
+    ],
+    "Cloud & Infrastructure": [
+      "AWS", "Azure", "CSPM", "Windows Enterprise Architecture", "MFA/IAM", "Network Security"
+    ],
+    "Operations & Leadership": [
+      "Team Training & Mentorship", "SOC Onboarding", "Alert Triage",
+      "Incident Response", "Root Cause Analysis", "SOP Development"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Detection Rule Optimization",
+      "description": "Engineered and refined SIEM/EDR detection rules in Microsoft Sentinel and CrowdStrike Falcon, significantly reducing false-positive alert volume and improving signal-to-noise ratio across global environments.",
+      "tags": ["KQL", "LogScale CQL", "Sentinel", "CrowdStrike"],
+      "icon": "shield"
+    },
+    {
+      "title": "Automated SOC Playbooks",
+      "description": "Designed and maintained automated incident response playbooks and SOPs, streamlining triage, investigation, and escalation workflows for faster mean-time-to-response.",
+      "tags": ["Python", "API Integration", "Automation", "SOPs"],
+      "icon": "terminal"
+    },
+    {
+      "title": "Cloud Security Posture Management",
+      "description": "Conducted vulnerability and misconfiguration audits across AWS and Azure using Wiz and Aqua Security, delivering actionable remediation pathways to harden cloud workloads.",
+      "tags": ["AWS", "Azure", "Wiz", "Aqua Security"],
+      "icon": "cloud"
+    },
+    {
+      "title": "Analyst Mentorship Program",
+      "description": "Mentored and trained 10+ junior security analysts through structured shadowing, technical training sessions, and targeted career pathing, accelerating progression to mid-tier proficiency.",
+      "tags": ["Training", "Mentorship", "SOC Onboarding", "Career Development"],
+      "icon": "users"
+    },
+    {
+      "title": "Threat Hunting Campaigns",
+      "description": "Executed proactive threat hunting across multi-cloud and hybrid endpoints using custom KQL and LogScale CQL queries to identify emerging threat vectors and malicious activity.",
+      "tags": ["Threat Hunting", "KQL", "CQL", "Multi-cloud"],
+      "icon": "search"
+    },
+    {
+      "title": "Root Cause Analysis",
+      "description": "Performed deep-dive RCA on high-severity phishing, malware, and credential harvesting campaigns across enterprise endpoints and email gateways.",
+      "tags": ["RCA", "Phishing", "Malware", "Forensics"],
+      "icon": "alert-triangle"
+    }
+  ],
+  "certifications": [
+    { "name": "Blue Team Level 1 (BTL1) — Gold", "issuer": "Security Operations & Incident Response", "year": "2023", "icon": "shield-check" },
+    { "name": "Google Cloud Fundamentals & Networking", "issuer": "Google Cloud Platform", "year": "", "icon": "cloud" },
+    { "name": "HDI Support Center Analyst", "issuer": "HDI", "year": "", "icon": "headset" },
+    { "name": "M.S. Information, Network & Computer Security", "issuer": "New York Institute of Technology (NYIT)", "year": "", "icon": "graduation-cap" },
+    { "name": "B.E. Electronics & Communication", "issuer": "Mahatma Gandhi Institute of Technical Education & Research (MGITER)", "year": "", "icon": "graduation-cap" }
+  ],
+  "terminal": {
+    "prompt": "kd@secops:~$",
+    "welcome": "ACCESS GRANTED — Welcome to KD's Security Operations Profile",
+    "motd": "Senior Security Operations Analyst | Threat Detection Engineer | BTL1 Gold",
+    "commands": {
+      "help": "Show available commands",
+      "whoami": "Display profile summary",
+      "experience": "List professional experience [exp <1-4> for details]",
+      "skills": "Show skills by category [skills <category>]",
+      "projects": "List key projects and achievements",
+      "certs": "Show certifications and education",
+      "contact": "Display contact information",
+      "resume": "Download PDF resume",
+      "theme": "Toggle between Terminal and Modern view",
+      "clear": "Clear terminal buffer",
+      "ls": "List available sections",
+      "cat": "Alias for viewing sections (cat experience, cat skills, etc.)"
+    }
+  }
+}

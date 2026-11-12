@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="terminal">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kshitij Desai - Senior Security Operations Analyst specializing in threat detection engineering, SIEM/EDR management, and automated incident response">
+    <meta name="theme-color" content="#00d4aa">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Kshitij Desai | Senior Security Operations Analyst">
+    <meta property="og:description" content="7+ years building resilient security operations — from threat detection engineering to automated incident response">
+    <meta property="og:image" content="profile.webp">
+    <meta property="og:url" content="https://xitijdesai.github.io">
+    <meta property="profile:first_name" content="Kshitij">
+    <meta property="profile:last_name" content="Desai">
+    <meta property="profile:username" content="xitijdesai">
+
+    <title>Kshitij Desai | Senior Security Operations Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <!-- ==================== TERMINAL VIEW ==================== -->
+    <main class="terminal-view" id="terminalView" role="application" aria-label="Terminal portfolio">
+        <header class="terminal-header">
+            <div class="terminal-titlebar">
+                <div class="terminal-controls" aria-hidden="true">
+                    <span class="control close"></span>
+                    <span class="control minimize"></span>
+                    <span class="control maximize"></span>
+                </div>
+                <div class="terminal-title">kd@secops:~$ portfolio</div>
+                <button class="theme-toggle" id="themeToggleTerminal" aria-label="Switch to Modern view" title="Toggle view (Ctrl+M)">
+                    <svg class="icon-terminal" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><line x1="6" y1="9" x2="18" y2="9"/><line x1="6" y1="13" x2="16" y2="13"/></svg>
+                    <svg class="icon-modern" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                    <span class="toggle-label">Modern</span>
+                </button>
+            </div>
+        </header>
+
+        <div class="terminal-body">
+            <div class="terminal-toolbar" aria-hidden="true">
+                <span class="toolbar-status">CONNECTED</span>
+                <span class="toolbar-divider"></span>
+                <span class="toolbar-encoding">UTF-8</span>
+                <span class="toolbar-divider"></span>
+                <span class="toolbar-position" id="cursorPosition">Ln 1, Col 1</span>
+            </div>
+
+            <div class="terminal-split-container">
+                <div class="terminal-main-pane">
+                    <div class="terminal-output" id="terminalOutput" role="log" aria-live="polite" aria-atomic="false" tabindex="0"></div>
+
+                    <div class="terminal-input-line">
+                        <span class="prompt" id="prompt" aria-hidden="true">kd@secops:~$</span>
+                        <input type="text" class="terminal-input" id="terminalInput"
+                               autocomplete="off" spellcheck="false"
+                               aria-label="Terminal command input"
+                               placeholder="Type 'help' for commands">
+                        <span class="cursor" id="inputCursor" aria-hidden="true"></span>
+                    </div>
+                </div>
+
+                <div class="terminal-sidebar">
+                    <div class="qr-card">
+                        <img src="qr-code.webp" alt="Kshitij Desai Portfolio QR Code" class="qr-image">
+                        <span class="qr-caption">Scan to Connect</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="terminal-footer">
+            <kbd class="shortcut" aria-hidden="true"><kbd>Ctrl</kbd>+<kbd>M</kbd></kbd> Toggle View
+            <kbd class="shortcut" aria-hidden="true"><kbd>Tab</kbd></kbd> Autocomplete
+            <kbd class="shortcut" aria-hidden="true"><kbd>↑/↓</kbd></kbd> History
+            <span class="footer-divider" aria-hidden="true">|</span>
+            <a href="https://linkedin.com/in/xitijdesai" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+            <a href="https://github.com/xitijdesai" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+            <a href="mailto:xitijdesai.work@gmail.com" class="footer-link">Email</a>
+            <a href="resume.pdf" class="footer-link" download>Resume</a>
+        </footer>
+    </main>
+
+    <!-- ==================== MODERN VIEW ==================== -->
+    <main class="modern-view" id="modernView" role="main" aria-label="Modern portfolio" hidden>
+        <nav class="nav" id="nav" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="#" class="nav-logo-container">
+                    <img src="badge.webp" alt="DEFCON 34 Badge" class="nav-badge-logo">
+                    <span class="nav-logo-text">KD</span>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggleModern" aria-label="Switch to Terminal view" title="Toggle view (Ctrl+M)">
+                    <svg class="icon-terminal" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><line x1="6" y1="9" x2="18" y2="9"/><line x1="6" y1="13" x2="16" y2="13"/></svg>
+                    <svg class="icon-modern" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                    <span class="toggle-label">Terminal</span>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+        <header class="hero" id="hero">
+            <div class="hero-background" aria-hidden="true"></div>
+            <div class="hero-content">
+                <p class="hero-badge">Senior Security Operations Analyst</p>
+                <h1 class="hero-title">Kshitij Desai</h1>
+                <p class="hero-subtitle">7+ years building resilient security operations — from threat detection engineering to automated incident response</p>
+                <div class="hero-stats" aria-label="Key statistics">
+                    <div class="stat"><span class="stat-number">10+</span><span class="stat-label">Analysts Mentored</span></div>
+                    <div class="stat"><span class="stat-number">7+</span><span class="stat-label">Years Experience</span></div>
+                    <div class="stat"><span class="stat-number">2</span><span class="stat-label">Cloud Platforms</span></div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="https://linkedin.com/in/xitijdesai" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+                    <a href="resume.pdf" download class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+            <button class="hero-scroll" id="heroScroll" aria-label="Scroll to about section">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </button>
+        </header>
+
+        <section class="section" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="about-title" class="section-title">About Me</h2>
+                    <p class="section-subtitle">Bridging Security Operations and Security Engineering</p>
+                </header>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="about-text" id="aboutSummary"></p>
+                    </div>
+                    <div class="about-highlights" id="aboutHighlights" aria-label="Key highlights"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="experience-title" class="section-title">Experience</h2>
+                    <p class="section-subtitle">Professional journey in security operations</p>
+                </header>
+                <div class="timeline" id="timeline" aria-label="Professional experience timeline"></div>
+            </div>
+        </section>
+
+        <section class="section" id="skills" aria-labelledby="skills-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="skills-title" class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">Tools and platforms I work with daily</p>
+                </header>
+                <div class="skills-grid" id="skillsGrid" aria-label="Skills categories"></div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="projects-title" class="section-title">Key Projects & Achievements</h2>
+                    <p class="section-subtitle">Highlights from my security operations career</p>
+                </header>
+                <div class="projects-grid" id="projectsGrid" aria-label="Projects"></div>
+            </div>
+        </section>
+
+        <section class="section" id="certifications" aria-labelledby="certs-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="certs-title" class="section-title">Certifications & Education</h2>
+                    <p class="section-subtitle">Continuous learning and professional development</p>
+                </header>
+                <div class="cert-grid" id="certGrid" aria-label="Certifications and degrees"></div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="contact-title" class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Open to opportunities in Security Operations, Detection Engineering, and Security Engineering</p>
+                </header>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always interested in discussing security operations, threat detection, cloud security, or opportunities to build more resilient security programs.</p>
+                        <div class="contact-links" id="contactLinks"></div>
+                    </div>
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your@email.com" autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Inquiry / Opportunity">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or opportunity..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="modernFooter">
+        <div class="container">
+            <p class="footer-text">© 2025 Kshitij Desai. Built with focus on security and clean code.</p>
+            <div class="footer-links">
+                <a href="https://linkedin.com/in/xitijdesai" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/xitijdesai" target="_blank" rel="noopener">GitHub</a>
+                <a href="mailto:xitijdesai.work@gmail.com">Email</a>
+                <a href="resume.pdf" download>Resume</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
